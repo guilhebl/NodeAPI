@@ -13,6 +13,7 @@ var oauth2 = require('./auth/oauth2');
 var api = require('./routes/api');
 var users = require('./routes/users');
 var articles = require('./routes/articles');
+var parts = require('./routes/parts');
 
 var app = express();
 
@@ -24,6 +25,7 @@ app.use('/', api);
 app.use('/api', api);
 app.use('/api/users', users);
 app.use('/api/articles', articles);
+app.use('/api/parts', parts);
 app.use('/api/oauth/token', oauth2.token);
 
 // Catch 404 and forward to error handler

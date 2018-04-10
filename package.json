@@ -20,6 +20,8 @@
         "passport-http": "^0.3.x",
         "passport-http-bearer": "^1.0.x",
         "passport-oauth2-client-password": "^0.1.x",
+        "request": "^2.85.0",
+        "request-promise": "^4.2.2",
         "winston": "^2.4.x"
     },
     "devDependencies": {
